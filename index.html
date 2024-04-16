@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Meeting Notes 4/10 </title>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+  </head>
+  <body>
+    <header>
+        <h1> Meeting Notes 4/10 </h1>
+        <h4> Brainstorming </h4>
+        <time>04/10/2024</time>
+        <div class = "attendees">
+            <strong>Attendees : </strong>
+            D Eez,
+            Billy Bob, 
+            Joe Momma (pictured below)
+        </div>
+        <img
+            class="fit-picture"
+            src="media/cat.jpg"
+            alt="LITTERally us" />
+        <h2> AGENDA </h2>
+        <nav>
+            <ol>
+                <li><a href = "#Icebreakers"> Icebreakers </a></li>
+                <li><a href = "#Team Name Ideas"> Team Name Ideas </a></li>
+                <li><a href = "#Team Bonding"> Team Bonding </a></li>
+                <li><a href = "#Roles"> Roles </a></li>
+            </ol>
+        </nav>
+        <h3>Summary</h3>
+        <p>
+            Just did some basic introdructory stuff where we all got to know each other
+            and were able to become better friends :). We did this through
+            some little icebreakers and some team bonding.
+        </p>
+    </header>
+
+    <main>
+        <hr>
+        <section>
+            <h2 id = "Icebreakers">Icebreakers</h2>
+            <ul>
+                <li>Went around and asked for names</li>
+                <li>Favorite animals (we decided <b>cats</b>)</li>
+                <li>Favorite activies to do: Sleep</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id = "Team Name Ideas"> Team Name Ideas</h2>
+                <ul>
+                    <li>Meow Mixers</li>
+                    <li><em>LITTER</em>ally so cool</li>
+                    <li><em>PURR</em>fect Team</li>
+                </ul>
+                <details>
+                    <summary>
+                        After a long vote we decided that our team name would be...
+                    </summary>
+                    <em>LITER</em>ally so cool
+                </details>
+                <hr>
+                <form>
+                    <fieldset>
+                        <legend>What name would you choose?</legend>
+                        
+                        <input type="radio" id = "mixers" name = "team" value = "M"/>
+                        <label for="mixers">Meow Mixers</label><br>
+    
+                        <input type="radio" id = "litterally" name = "team" value = "L"/>
+                        <label for="litterally"><em>LITTER</em>ally so cool</label><br>
+    
+                        <input type="radio" id = "purrfect" name = "team" value = "P"/>
+                        <label for="purrfect"><em>PURR</em>fect Team</label><br>
+                    </fieldset>
+                </form>
+        </section>
+        <section>
+            <h2 id = "Team Bonding">Team Bonding</h2>
+            <span>We played and did karaoke!!</span>
+            <figure>
+                <figcaption>Listen to our Karaoke!!</figcaption>
+                <audio controls src="/media/catMeows.mp3"></audio>
+            </figure>
+            <div>Look at us play!</div>
+            <video controls width="300">
+                <source src = "media/catPlay.mp4"/>
+            </video>
+        </section>
+        <section>
+
+        </section>
+        <section>
+            <h2 id = "Roles">Roles</h2>
+            <p>
+                <strong>President: </strong> Joe Momma <br>
+                <strong>VP:</strong> D Eez <br>
+                <strong>Dilly Dallyer:</strong> Billy Bob
+            </p>
+            <label for="app">Want to join the team?</label>
+            <br>
+            <textarea id="app" name="app" rows="5" cols="43"> Type a reason why'd you'd like to join...</textarea>
+            <br>
+            <label for="role-choice">What role would you like? </label>
+            <input list="roles" id="role-choice" name="role-choice" />
+
+            <datalist id="roles">
+                <option value="Note Taker"></option>
+                <option value="Tree Climber"></option>
+                <option value="Chef"></option>
+            </datalist>
+            <br>
+            <label for="start-time">When would you be able to start?</label>
+
+            <select name="seasons" id="season-select">
+                <option value="">Select an Option</option>
+                <option value="spring">Spring</option>
+                <option value="summer">Summer</option>
+                <option value="autumn">Autumn</option>
+                <option value="winter">Winter</option>
+            </select>
+        </section>
+        <button class="submit" type="button">Submit Application</button>
+    </main>
+    <hr>
+    <footer><i> © Anthony Business INC </i></footer>
+  </body>
+</html>
