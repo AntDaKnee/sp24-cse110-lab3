@@ -64,8 +64,7 @@
                     <em>LITER</em>ally so cool
                 </details>
                 <hr>
-                <form>
-                    <fieldset>
+                <fieldset>
                         <legend>What name would you choose?</legend>
                         
                         <input type="radio" id = "mixers" name = "team" value = "M">
@@ -100,6 +99,9 @@
             </p>
             <label for="app">Want to join the team?</label>
             <br>
+            <label for="name">Name (max 12 characters):</label>
+            <input type="text" id="name" name="name" required maxlength="10" size="19">
+            <br>
             <textarea id="app" name="app" rows="5" cols="43"> Type a reason why'd you'd like to join...</textarea>
             <br>
             <label for="role-choice">What role would you like? </label>
@@ -120,6 +122,27 @@
                 <option value="autumn">Autumn</option>
                 <option value="winter">Winter</option>
             </select>
+            <br>
+            <label for="date">Date of application</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <form>
+                <fieldset>
+                    <legend>What breed are you?</legend>
+                    
+                    <input type="checkbox" id = "siamese" name = "breed" value = "S">
+                    <label for="siamese">Siamese</label><br>
+
+                    <input type="checkbox" id = "britShorthair" name = "breed" value = "BS">
+                    <label for="britShorthair">British Shorthair</label><br>
+
+                    <input type="checkbox" id = "persian" name = "breed" value = "P">
+                    <label for="persian">Persian</label><br>
+
+                    <input type="checkbox" id = "burmese" name = "breed" value = "B">
+                    <label for="burmese">Burmese</label><br>
+                </fieldset>
+            </form>
         </section>
         <button class="submit" type="button">Submit Application</button>
     </main>
