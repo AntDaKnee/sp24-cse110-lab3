@@ -1,0 +1,102 @@
+/* Declaring variables to be used later */
+:root {
+    --bg-color: #FFEAFF;
+    --time-color: rgb(112, 92, 66);
+}
+
+/* Making title have a background and different text color*/
+h1 {
+    color: palevioletred;
+    font-size: 4em;
+    margin: 0;
+}
+
+/* Topic of Meeting Styling */
+h4 {
+    font-size: 1.5em;
+    margin: 0 0 1em 1em;
+}
+
+/* add color to the website */
+body {
+    background-color: var(--bg-color, #EAFFFF);
+    margin-left: 4mm;
+    margin-right: auto;
+}
+
+/* Make the time stand out more and differnt margins */
+time {
+    margin-left: 3em;
+    border-style: solid;
+    border-color: color(display-p3 0.91 0.4 0.7);
+    border-radius: 2mm;
+    border-width: 2px;
+    padding: 1mm 2mm 1mm 2mm;
+    color: var(--time-color, tan);
+    background-color: hsl(180, 100%, 96%);
+}
+
+/* Adding margins around div elements*/
+div {
+    padding-top: 8mm;
+    padding-bottom: 1cm;
+    display: block;
+}
+
+/* Adding border and adjusting size of image*/
+img {
+    border-style: solid;
+    border-color: color(display-p3 0.91 0.4 0.7);
+    border-radius: 4mm;
+    border-width: 2px;
+    height: 2.5in;
+    max-width: 10in;
+}
+
+/* Make summary be in the center */
+h3 {
+    text-align: center;
+    text-decoration: underline wavy;  
+    
+}
+
+/* Made attendees in its own little block*/
+.attendees {
+    display: block;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 2mm;
+    padding-left: 1mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-right: 1mm;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Added reactions for button */
+button:hover {
+    color: red;
+    background-color: darkgray;
+}
+button:active {
+    color: paleturquoise;
+    background-color: blue;
+}
+
+fieldset {
+    display: grid;
+}
+
+span {
+    display: inline;
+}
+
+#Icebreakers {
+    color: powderblue;
+}
+
+legend, figcaption {
+    color: grey;
+}
+

@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[Meeting Notes Page](https://antdaknee.github.io/Lab2_Starter/)
+# Lab 3
+[Meeting Notes Page W CSS](https://antdaknee.github.io/sp24-cse110-lab3/)
