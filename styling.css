@@ -6,7 +6,7 @@
 
 /* Making title have a background and different text color*/
 h1 {
-    color: palevioletred;
+    color:  color(display-p3 0.91 0.4 0.7);
     font-size: 4em;
     margin: 0;
 }
@@ -28,7 +28,7 @@ body {
 time {
     margin-left: 3em;
     border-style: solid;
-    border-color: color(display-p3 0.91 0.4 0.7);
+    border-color:palevioletred;
     border-radius: 2mm;
     border-width: 2px;
     padding: 1mm 2mm 1mm 2mm;
@@ -46,7 +46,7 @@ div {
 /* Adding border and adjusting size of image*/
 img {
     border-style: solid;
-    border-color: color(display-p3 0.91 0.4 0.7);
+    border-color: palevioletred;
     border-radius: 4mm;
     border-width: 2px;
     height: 2.5in;
@@ -57,7 +57,6 @@ img {
 h3 {
     text-align: center;
     text-decoration: underline wavy;  
-    
 }
 
 /* Made attendees in its own little block*/
